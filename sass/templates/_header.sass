@@ -1,0 +1,33 @@
+.header
+  background-color: #f5f6f7
+  &__container
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 1.87rem 10.62rem
+
+.menu
+  margin-left: 2.69rem
+  color: $main-color
+  font-size: 0.87rem
+  font-weight: 700
+  text-decoration: none
+  &:hover
+    color: darken($second-color, 10%)
+    cursor: pointer
+  &:active
+    color: darken($second-color, 15%)
+  &__button
+    background-color: $main-color
+    color: #fff
+    border-radius: 8px
+    border: none
+    font-weight: 700
+    font-size: 0.87rem
+    padding: 1rem 1.63rem
+    margin-left: 2.69rem
+    &:hover
+      background-color: darken($second-color, 10%)
+      cursor: pointer
+    &:active
+      background-color: darken($second-color, 15%)

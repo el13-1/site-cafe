@@ -1,0 +1,14 @@
+@mixin text-middle{
+  color: $main-color;
+  font-weight: 700;
+}
+
+@mixin text-bold{
+  color: $main-color;
+  font-weight: 900;
+}
+
+$main-color: #0F2336;
+$second-color: #00CCCC;
+
+
