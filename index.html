@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+  <script src="main.js" defer></script>
   <title>Cafe</title>
 </head>
 <body>
@@ -21,7 +24,7 @@
     </div>
   </header>
   <main>
-    <div class="hero">
+    <section class="hero">
       <div class="container hero__container">
         <div class="hero__text">
           <h1 class="hero__title">
@@ -33,7 +36,93 @@
         <div class="hero__img"></div>
       </div>
       <!-- /.container hero__container -->
-    </div>
+    </section>
+
+    <section class="utp">
+      <div class="container utp__container">
+        <div class="utp__item">
+          <div class="utp__imgcont"><img src="img/iconarrow.png" alt="" class="utp__img"></div>
+          <h3 class="utp__pretitle">Order ahead, skip the line</h3>
+          <p class="utp__text">Feel like a rock star when you bypass the line and save a bunch of time.</p>
+        </div>
+        <!-- /.utp__item -->
+        <div class="utp__item">
+          <div class="utp__imgcont"><img src="img/iconpercent.png" alt="" class="utp__img"></div>
+          <h3 class="utp__pretitle">Bonus and discounts</h3>
+          <p class="utp__text">You can enjoy lots of discounts from the selected stores, or accumulate points.</p>
+        </div>
+        <!-- /.utp__item -->
+        <div class="utp__item">
+          <div class="utp__imgcont"><img src="img/iconglass.png" alt="" class="utp__img"></div>
+          <h3 class="utp__pretitle">Share with your friends</h3>
+          <p class="utp__text">Send gifts to your friends and family, and pick up for your coworkers when they can't get away .</p>
+        </div>
+        <!-- /.utp__item -->
+      </div>
+    </section>
+
+    <section class="how">
+      <div class="container how__container">
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="how__slide sl">
+                <div class="sl__left">
+                  <div class="sl__img"><img src="img/tel.png" alt="" ></div>
+                </div>
+                <div class="sl__right">
+                  <h2 class="sl__title"><span class="sl__pretitle">Your daily pick-me-up</span><br>How does<br>it work.</h2>
+                  <p class="sl__text">Start choosing your favorite teas and snacks in your nearby stores and place your orders, accumulate points, share gifts and teas with your friends and co-workers, and finally use our T-Pass to get your free drinks.</p>
+                </div>
+              </div>
+              <!-- /.how__slide -->
+            </div>
+
+            <div class="swiper-slide">
+              <div class="how__slide sl">
+                <div class="sl__left">
+                  <div class="sl__img"><img src="img/tel.png" alt="" ></div>
+                </div>
+                <div class="sl__right">
+                  <h2 class="sl__title"><span class="sl__pretitle">Your daily pick-me-up</span><br>How does<br>it work1.</h2>
+                  <p class="sl__text">Start choosing your favorite teas and snacks in your nearby stores and place your orders, accumulate points, share gifts and teas with your friends and co-workers, and finally use our T-Pass to get your free drinks.</p>
+                </div>
+              </div>
+              <!-- /.how__slide -->
+            </div>
+            <div class="swiper-slide">
+              <div class="how__slide sl">
+                <div class="sl__left">
+                  <div class="sl__img"><img src="img/tel.png" alt="" ></div>
+                </div>
+                <div class="sl__right">
+                  <h2 class="sl__title"><span class="sl__pretitle">Your daily pick-me-up</span><br>How does<br>it work2.</h2>
+                  <p class="sl__text">Start choosing your favorite teas and snacks in your nearby stores and place your orders, accumulate points, share gifts and teas with your friends and co-workers, and finally use our T-Pass to get your free drinks.</p>
+                </div>
+              </div>
+              <!-- /.how__slide -->
+            </div>
+            <div class="swiper-slide">
+              <div class="how__slide sl">
+                <div class="sl__left">
+                  <div class="sl__img"><img src="img/tel.png" alt="" ></div>
+                </div>
+                <div class="sl__right">
+                  <h2 class="sl__title"><span class="sl__pretitle">Your daily pick-me-up</span><br>How does<br>it work3.</h2>
+                  <p class="sl__text">Start choosing your favorite teas and snacks in your nearby stores and place your orders, accumulate points, share gifts and teas with your friends and co-workers, and finally use our T-Pass to get your free drinks.</p>
+                </div>
+              </div>
+              <!-- /.how__slide -->
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+      
+        </div>
+      </div>
+    </section>
   </main>
 </body>
 </html>

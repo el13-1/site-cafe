@@ -356,7 +356,6 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #eba5a5;
 }
 
 .header {
@@ -507,5 +506,127 @@ body {
   font-size: 3.44rem;
   font-weight: 700;
   color: #F3AF47;
+}
+
+.utp {
+  padding-top: 6.25rem;
+  padding-bottom: 5.25rem;
+}
+
+.utp__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 10.62rem;
+  padding-right: 10.62rem;
+}
+
+.utp__item {
+  max-width: 325px;
+  margin-right: 52px;
+}
+
+.utp__imgcont {
+  margin-bottom: 30px;
+}
+
+.utp__pretitle {
+  font-size: 1.56rem;
+  color: #0F2336;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.utp__text {
+  color: #576D81;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.how {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.how__container {
+  padding-left: 9.37rem;
+  padding-right: 9.37rem;
+  background: url(../img/fon1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 640px;
+  max-width: 1440px;
+}
+
+.sl {
+  height: 640px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sl__left {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  position: relative;
+}
+
+.sl__img {
+  position: absolute;
+  left: -20px;
+}
+
+.sl__right {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  margin-left: 185px;
+}
+
+.sl__pretitle {
+  display: inline-block;
+  margin-top: 135px;
+  margin-bottom: 20px;
+  color: #576D81;
+  font-size: 1.12rem;
+  font-weight: 400;
+}
+
+.sl__title {
+  font-size: 2.5rem;
+  color: #0F2336;
+  font-weight: 900;
+}
+
+.sl__text {
+  color: #576D81;
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 26.3rem;
+  line-height: 24px;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 145px;
+  left: 62px;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #abb4ba;
+}
+
+.swiper-pagination-bullet-active {
+  width: 55px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #00CCCC;
 }
 /*# sourceMappingURL=style.css.map */

@@ -8,7 +8,15 @@
   font-weight: 900;
 }
 
+@mixin small-text{
+  color: $small-text-color;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 $main-color: #0F2336;
 $second-color: #00CCCC;
+$small-text-color: #576D81;
+
 
 

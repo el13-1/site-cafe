@@ -1,0 +1,58 @@
+
+.how
+  padding-top: 100px
+  padding-bottom: 120px
+  &__container
+    padding-left: 9.37rem
+    padding-right: 9.37rem
+    background: url(../img/fon1.jpg)
+    background-repeat: no-repeat
+    background-position: center center
+    height: 640px
+    max-width: 1440px
+  
+    
+.sl
+  height: 640px
+  display: flex
+  justify-content: center
+  
+  &__left
+    flex-basis: 40%
+    position: relative
+  &__img
+    position: absolute
+    left: -20px
+  &__right
+    flex-basis: 60%  
+    margin-left: 185px
+  &__pretitle
+    display: inline-block
+    margin-top: 135px
+    margin-bottom: 20px
+    color: $small-text-color
+    font-size: 1.12rem
+    font-weight: 400
+  &__title
+    font-size: 2.5rem
+    @include text-bold
+  &__text
+    @include small-text
+    max-width: 26.3rem
+    line-height: 24px
+
+.swiper-container-horizontal>.swiper-pagination-bullets
+  bottom: 145px
+  left: 62px
+.swiper-pagination-bullet 
+  width: 10px
+  height: 10px
+  border-radius: 50%
+  background-color: darken(#E3E6E8, 20%)
+.swiper-pagination-bullet-active
+  width: 55px
+  height: 10px
+  border-radius: 10px
+  background-color: $second-color
+    
+    
