@@ -596,7 +596,7 @@ body {
 
 .sl__pretitle {
   display: inline-block;
-  margin-top: 135px;
+  margin-top: 100px;
   margin-bottom: 20px;
   color: #576D81;
   font-size: 1.12rem;
@@ -760,5 +760,76 @@ body {
   display: inline-block;
   margin-top: -10px;
   line-height: 1.5rem;
+}
+
+.group {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.group__container {
+  padding-left: 9.37rem;
+  padding-right: 9.37rem;
+  height: 640px;
+  max-width: 1140px;
+}
+
+.gr {
+  height: 33.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3.13rem;
+  margin-bottom: 3.13rem;
+  background-color: #F4F5F6;
+  border-radius: 50px;
+}
+
+.gr__left {
+  -ms-flex-preferred-size: 64%;
+      flex-basis: 64%;
+  position: relative;
+}
+
+.gr__img {
+  position: absolute;
+  left: 0;
+  top: -55px;
+}
+
+.gr__right {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin-left: 140px;
+}
+
+.gr__pretitle {
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: #576D81;
+  font-size: 1.12rem;
+  font-weight: 400;
+}
+
+.gr__title {
+  font-size: 2.5rem;
+  color: #0F2336;
+  font-weight: 900;
+}
+
+.gr__text {
+  color: #576D81;
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 25.3rem;
+  line-height: 24px;
+}
+
+div.swiper-pagination.group-pag.swiper-pagination-bullets {
+  left: -361px;
 }
 /*# sourceMappingURL=style.css.map */

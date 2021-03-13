@@ -1,5 +1,5 @@
 
-.how
+.group
   padding-top: 100px
   padding-bottom: 120px
   &__container
@@ -9,8 +9,8 @@
     height: 640px
     max-width: 1140px
   
-    
-.sl
+
+.gr
   height: 33.75rem
   display: flex
   justify-content: center
@@ -20,15 +20,15 @@
   border-radius: 50px
 
   &__left
-    flex-basis: 40%
+    flex-basis: 64%
     position: relative
   &__img
     position: absolute
     left: 0
     top: -55px
   &__right
-    flex-basis: 60%  
-    margin-left: 185px
+    flex-basis: 50%  
+    margin-left: 140px
   &__pretitle
     display: inline-block
     margin-top: 100px
@@ -41,21 +41,9 @@
     @include text-bold
   &__text
     @include small-text
-    max-width: 26.3rem
+    max-width: 25.3rem
     line-height: 24px
 
-.swiper-container-horizontal>.swiper-pagination-bullets
-  bottom: 145px
-  left: 62px
-.swiper-pagination-bullet 
-  width: 10px
-  height: 10px
-  border-radius: 50%
-  background-color: darken(#E3E6E8, 20%)
-.swiper-pagination-bullet-active
-  width: 55px
-  height: 10px
-  border-radius: 10px
-  background-color: $second-color
-    
-    
+
+div.swiper-pagination.group-pag.swiper-pagination-bullets
+  left: -361px
