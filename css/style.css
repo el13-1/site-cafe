@@ -480,7 +480,7 @@ body {
   -webkit-box-shadow: 0px 3px 18px rgba(0, 201, 201, 0.55);
           box-shadow: 0px 3px 18px rgba(0, 201, 201, 0.55);
   border-radius: 14px;
-  border: none;
+  border: 1px solid #00CCCC;
 }
 
 .hero__btn::after {
@@ -831,5 +831,71 @@ body {
 
 div.swiper-pagination.group-pag.swiper-pagination-bullets {
   left: -361px;
+}
+
+.enjoy {
+  margin-bottom: 110px;
+}
+
+.enjoy__container {
+  max-width: 570px;
+  margin: auto;
+}
+
+.enjoy__top {
+  margin: 0 auto -15px auto;
+  max-width: 120px;
+}
+
+.enjoy__title {
+  color: #0F2336;
+  font-weight: 900;
+  font-size: 3.13rem;
+  text-align: center;
+}
+
+.enjoy__form {
+  margin-top: -17px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.enjoy__input {
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 1.13rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 17px 94px;
+  background-color: #f0f0f2;
+  border: 1px solid #F0F0F2;
+  border-radius: 6px;
+}
+
+.enjoy__btn {
+  padding: 16px 36px;
+  background-color: #00CCCC;
+  border: 1px solid #00CCCC;
+  border-radius: 14px;
+  color: #0F2336;
+  font-weight: 700;
+  font-size: 1.13rem;
+}
+
+.enjoy__btn:hover {
+  background-color: #009999;
+  cursor: pointer;
+}
+
+.enjoy__btn:active {
+  background-color: teal;
+}
+
+.enjoy__link {
+  margin-right: 24px;
 }
 /*# sourceMappingURL=style.css.map */
