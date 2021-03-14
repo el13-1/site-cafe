@@ -1,0 +1,66 @@
+
+.foot
+  background-color: $main-color
+  height: 297px
+  &__container
+    display: flex
+  &__left
+    position: relative
+    width: 40%
+    padding-left: 240px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    height: 297px
+    &__logo
+      margin-top: 38px
+  &__right
+    position: relative
+    width: 60%
+    display: flex
+    margin-top: 63px
+  &__develop
+    margin-bottom: 30px  
+    text-decoration: none
+    color: rgba(255, 255, 255, 0.7)
+    font-weight: 400
+    font-size: 1rem
+  &__column
+    max-width: 110px
+    margin-right: 81px
+    &:last-child
+      margin-right: 0
+  &__link
+    display: block
+    max-width: 110px
+    margin-bottom: 10px
+    text-decoration: none
+    color: rgba(255, 255, 255, 0.7)
+    font-weight: 400
+    font-size: 0.87rem
+    line-height: 20px
+    &::after
+      display: block
+      content: ""
+      height: 1px
+      width: 0
+      background-color: rgba(255, 255, 255, 0.7)
+      transition: width 0.4s ease-in-out 
+    &:hover
+      &::after
+        width: 100%
+    &::active
+      color: rgba(255, 255, 255, 0.8) 
+  &__pretitle
+    font-size: 0.75rem
+    font-weight: 700
+    color: $second-color
+
+.leaf
+  position: absolute  
+  left: 0
+  top: -102px  
+  &__yello
+    position: absolute
+    right: 0
+    top: -23px
