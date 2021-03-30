@@ -369,10 +369,10 @@ body {
 
 @media screen and (max-width: 1417px) {
   div.header__logo {
-    margin-left: 5.63rem;
+    margin-left: 5.62rem;
   }
   div.header__menu {
-    margin-right: 5.63rem;
+    margin-right: 5.62rem;
   }
   div.hero__text {
     padding-left: 5.62rem;
@@ -442,7 +442,7 @@ body {
     margin-left: 90px;
   }
   img.sl__img--tel {
-    width: 140%;
+    width: 134%;
   }
   span.sl__pretitle {
     margin-top: 0;
@@ -455,6 +455,13 @@ body {
     font-size: 2.2rem;
     line-height: 43px;
     margin-top: -30px;
+  }
+  h2.enjoy__title {
+    font-size: 2.5rem;
+    line-height: 3.3rem;
+  }
+  section.group {
+    padding-bottom: 0;
   }
   div.group__container {
     padding-left: 5.62rem;
@@ -475,19 +482,46 @@ body {
     height: 26.75rem;
   }
   img.gr__img--tel {
-    width: 89%;
+    width: 82%;
   }
 }
 
 @media screen and (max-width: 1260px) {
+  h1.hero__title {
+    font-size: 2.8rem;
+    line-height: 4rem;
+  }
+  span.hero--up {
+    font-size: 2.8rem;
+    line-height: 4rem;
+  }
+  section.bonus {
+    height: 28rem;
+  }
+  div.bonus__right {
+    width: 42%;
+  }
+  div.bonus__left {
+    width: 58%;
+  }
+  img.bonus__img {
+    max-width: 500px;
+    margin-top: -81px;
+  }
+  div.points {
+    padding-bottom: 2px;
+  }
   img.sl__img--tel {
-    width: 177%;
+    width: 140%;
   }
   div.sl__right {
-    margin-left: 157px;
+    margin-left: 92px;
+  }
+  img.gr__img--tel {
+    width: 80%;
   }
   div.swiper-container-horizontal > .swiper-pagination-bullets {
-    left: 244px;
+    left: 200px;
   }
 }
 
@@ -500,14 +534,69 @@ body {
     font-size: 1.9rem;
     line-height: 43px;
   }
+  div.hero__img {
+    height: 33.4rem;
+  }
+  div.hero__container {
+    height: 33.4rem;
+  }
   img.gr__img--tel {
-    width: 100%;
+    width: 80%;
+    margin-left: 57px;
   }
   img.sl__img--tel {
-    width: 193%;
+    width: 140%;
   }
   div.swiper-container-horizontal > .swiper-pagination.group-pag.swiper-pagination-bullets {
     left: -150px;
+  }
+  div.sl__right {
+    margin-left: 82px;
+  }
+  div.points {
+    max-width: 23rem;
+  }
+  div.bonus__right {
+    margin-left: -48px;
+  }
+  h2.enjoy__title {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  img.enj {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1126px) {
+  div.header__logo {
+    margin-left: 3.62rem;
+  }
+  div.header__menu {
+    margin-right: 3.62rem;
+  }
+  div.hero__text {
+    padding-left: 3.62rem;
+  }
+  div.utp__container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-left: 3.62rem;
+    padding-right: 3.62rem;
+  }
+  div.bonus__container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-right: 3.62rem;
+    padding-left: 3.62rem;
+  }
+  div.how__container {
+    padding-left: 3.62rem;
+    padding-right: 3.62rem;
+  }
+  div.group__container {
+    padding-left: 3.62rem;
+    padding-right: 3.62rem;
   }
 }
 
