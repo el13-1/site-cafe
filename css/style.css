@@ -367,6 +367,150 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1417px) {
+  div.header__logo {
+    margin-left: 5.63rem;
+  }
+  div.header__menu {
+    margin-right: 5.63rem;
+  }
+  div.hero__text {
+    padding-left: 5.62rem;
+  }
+  div.utp__container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-left: 5.62rem;
+    padding-right: 5.62rem;
+  }
+  div.utp__pretitle {
+    font-size: 1.36rem;
+  }
+  h3.utp__pretitle {
+    font-size: 1.3rem;
+  }
+  div.bonus__container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-right: 5.62rem;
+    padding-left: 5.62rem;
+  }
+  h3.points__title--coll {
+    font-size: 1.3rem;
+  }
+  h3.points__title--coll::before {
+    background-size: 70%;
+    margin-right: 0px;
+  }
+  h3.points__title--persent {
+    font-size: 1.3rem;
+  }
+  h3.points__title--persent::before {
+    background-size: 70%;
+    margin-right: 0px;
+  }
+  h3.points__title--pass {
+    font-size: 1.3rem;
+  }
+  h3.points__title--pass::before {
+    background-size: 70%;
+    margin-right: 0px;
+  }
+  p.points__text {
+    margin-left: 3.8rem;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  div.swiper-container-horizontal > .swiper-pagination.group-pag.swiper-pagination-bullets {
+    left: -316px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  section.how {
+    padding-bottom: 23px;
+  }
+  div.how__container {
+    padding-left: 5.62rem;
+    padding-right: 5.62rem;
+  }
+  div.sl {
+    height: 26.75rem;
+  }
+  div.sl__right {
+    margin-left: 90px;
+  }
+  img.sl__img--tel {
+    width: 140%;
+  }
+  span.sl__pretitle {
+    margin-top: 0;
+  }
+  h2.sl__title {
+    font-size: 2.2rem;
+    line-height: 43px;
+  }
+  h2.gr__title {
+    font-size: 2.2rem;
+    line-height: 43px;
+    margin-top: -30px;
+  }
+  div.group__container {
+    padding-left: 5.62rem;
+    padding-right: 5.62rem;
+  }
+  div.swiper-container-horizontal > .swiper-pagination-bullets {
+    left: 203px;
+    width: 60%;
+  }
+  div.swiper-container-horizontal > .swiper-pagination.group-pag.swiper-pagination-bullets {
+    left: -150px;
+    bottom: 123px;
+  }
+  div.gr__right {
+    margin-left: 78px;
+  }
+  div.gr {
+    height: 26.75rem;
+  }
+  img.gr__img--tel {
+    width: 89%;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  img.sl__img--tel {
+    width: 177%;
+  }
+  div.sl__right {
+    margin-left: 157px;
+  }
+  div.swiper-container-horizontal > .swiper-pagination-bullets {
+    left: 244px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  h2.sl__title {
+    font-size: 1.9rem;
+    line-height: 43px;
+  }
+  h2.gr__title {
+    font-size: 1.9rem;
+    line-height: 43px;
+  }
+  img.gr__img--tel {
+    width: 100%;
+  }
+  img.sl__img--tel {
+    width: 193%;
+  }
+  div.swiper-container-horizontal > .swiper-pagination.group-pag.swiper-pagination-bullets {
+    left: -150px;
+  }
+}
+
 .header {
   background-color: #f5f6f7;
 }
@@ -533,13 +677,17 @@ body {
 }
 
 .utp__container {
-  max-width: 1440px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  max-width: 1440px;
+  padding-left: 10.62rem;
+  padding-right: 10.62rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .utp__item {
@@ -548,11 +696,11 @@ body {
 }
 
 .utp__item:last-child {
-  margin-right: 170px;
+  margin-right: 0;
 }
 
 .utp__item:first-child {
-  margin-left: 170px;
+  margin-left: 0;
 }
 
 .utp__imgcont {
@@ -672,6 +820,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding-right: 10.62rem;
   padding-left: 10.62rem;
 }
@@ -679,30 +829,32 @@ body {
 .bonus__left {
   position: relative;
   width: 50%;
+  margin-right: 10px;
 }
 
 .bonus__right {
   width: 50%;
-  margin-left: -29px;
+  margin-left: 10px;
 }
 
 .bonus__img {
   margin-top: -99px;
+  max-width: 595px;
 }
 
 .bonus__points--one {
-  left: 137px;
+  left: 0;
   top: -43px;
 }
 
 .bonus__points--too {
-  left: 175px;
+  left: 50px;
   top: 31.5%;
   z-index: 100;
 }
 
 .bonus__points--three {
-  left: 137px;
+  left: 0;
   top: 70.5%;
 }
 
