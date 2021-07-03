@@ -8,7 +8,7 @@ const swiper = new Swiper('.swip', {
     el: '.swiper-pagination',
   },
 
-  
+
 });
 
 const swiperGroop = new Swiper('.swip-gr', {
