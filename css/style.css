@@ -860,7 +860,12 @@ body {
   }
 }
 
-@media screen and (max-width: 672px) and (max-width: 614px) {
+@media screen and (max-width: 614px) {
+  h1.hero__title {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
   form.enjoy__form {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -872,6 +877,85 @@ body {
   }
   div.enjoy__anc {
     padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  img.logo {
+    max-width: 100px;
+  }
+  h1.hero__title {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  span.hero--up {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  img.sl__img--tel {
+    width: 218%;
+    margin-left: -133px;
+  }
+  div.swiper-container-horizontal > .swiper-pagination-bullets {
+    left: 10px;
+  }
+  h2.sl__title {
+    font-size: 1.3rem;
+    line-height: 25px;
+  }
+  div.sl__right {
+    margin-top: 144px;
+  }
+  div.bonus__points--too {
+    left: 0;
+  }
+  img.gr__img--tel {
+    width: 89%;
+  }
+  div.gr__right {
+    margin-left: 36px;
+  }
+  h2.gr__title {
+    font-size: 1.3rem;
+    line-height: 25px;
+  }
+  span.gr__pretitle {
+    margin-bottom: 10px;
+  }
+  div.swiper-container-horizontal > .swiper-pagination.group-pag.swiper-pagination-bullets {
+    bottom: 100px;
+    left: 22px;
+  }
+  div.group__container {
+    height: 703px;
+  }
+  img.enj {
+    width: 62%;
+    margin-bottom: 14px;
+  }
+  h2.enjoy__title {
+    font-size: 1.3rem;
+    line-height: 28px;
+  }
+  input.enjoy__input {
+    margin-top: 20px;
+    margin-right: 0;
+    width: 100%;
+  }
+  form.enjoy__form {
+    padding-right: 20px;
+  }
+  button.enjoy__btn {
+    width: 100%;
+  }
+  section.enjoy {
+    margin-top: -30px;
+  }
+  img.foot__left__logoimg {
+    max-width: 100px;
+  }
+  img.leaf__img {
+    width: 73%;
   }
 }
 
@@ -1398,6 +1482,12 @@ div.swiper-pagination.group-pag.swiper-pagination-bullets {
 }
 
 .enjoy__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0 auto -15px auto;
   max-width: 120px;
 }
